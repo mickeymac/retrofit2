@@ -56,8 +56,9 @@ Version: 1.0.0
   border: none;
   padding: 15px 0;
   line-height: 1;
-  color: black;
+  color: white;
   font-weight: 800;
+  
 }
 
 .header-top-wrapper {
@@ -73,7 +74,10 @@ Version: 1.0.0
 
 .contact-link {
   display: flex;
-  gap: 30px;
+  gap: 300px;
+  margin-right: 200px;
+  padding-right: 30px;
+  
 }
 
 .contact-link .info_box {
@@ -83,7 +87,7 @@ Version: 1.0.0
   font-size: 12px;
   vertical-align: top;
   font-weight: 400;
-  color: #333;
+  color: white;
   text-transform: capitalize;
 }
 
@@ -94,13 +98,13 @@ Version: 1.0.0
 .contact-link .info_box::before {
   font-family: "FontAwesome";
   font-size: 18px;
-  color: rgb(32, 32, 32);
+  color: white;
   margin-right: 5px;
   vertical-align: -2px;
 }
 
 .contact-link .info_box span {
-  color: rgb(32, 32, 32);
+  color: white;
 }
 
 .contact-link .info_box.email::before {
@@ -114,6 +118,9 @@ Version: 1.0.0
 
 .social_follow {
   position: relative;
+  display: flex;
+  
+ 
 }
 
 .social_follow ul {
@@ -131,7 +138,7 @@ Version: 1.0.0
 .top-bar-left .social_follow li a {
   position: relative;
   display: inline-block;
-  color:  rgb(32, 32, 32);
+  color:  white;
   background: transparent;
   font-size: 18px;
   line-height: 20px;
@@ -164,7 +171,7 @@ Version: 1.0.0
   border: 0;
   background: none;
   display: block;
-  color:  rgb(32, 32, 32);
+  color:  white;
   text-decoration: none;
   font-size: 13px;
 }
@@ -1316,7 +1323,7 @@ Version: 1.0.0
   transition: all 300ms ease-in;
 }
 
-.single-policy .icon:hover i {   /*zxid*/
+.single-policy .icon:hover i {   /*zxidzxid*/
   border-color:rgb(86, 138, 153);
   background:rgb(86, 138, 153);
   color: white;
@@ -2544,14 +2551,14 @@ Version: 1.0.0
   line-height: 30px;
   border-radius: 15px;
   color: white;
-  background: #323232;
+  background: rgb(86, 138, 153);
   text-transform: capitalize;
   font-size: 14px;
   font-weight: 400;
 }
 
 .home_blog_post_area .blog_slider .item .blog_post .post_content {
-  background: #a89842;
+  background: rgba(86, 138, 153,0.7);
   padding: 20px 15px;
 }
 
@@ -3505,6 +3512,7 @@ s .home-two .js-product-miniature .countdown {
 .home-four .header-top-area {
   background: #a89842;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  
 }
 
 .home-four .slider-area {
@@ -3850,7 +3858,7 @@ ul {
 }
 
 .contact-link a {
-  color: #333;
+  color: white;
 }
 
 .categori-menu-list li {
